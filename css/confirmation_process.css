@@ -1,0 +1,109 @@
+/*Alkaa: yleinen asetukset*/
+:root {
+  --font: 		#fff8d4;
+  --background:	#090333;
+  --border: 	#b2aed1;
+  --shadow: 	0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+/*Loppuu: yleinen asetukset*/
+
+body
+{
+background-color: white;
+}
+
+
+#content_window
+{/*Vahvistusviestin taustan asetukset*/
+background-color: 	var(--background);
+border:				1px solid #e8e0c1;
+border-radius:		10px;
+box-shadow: 		0px 8px 8px 0px rgba(0,0,0,0.2);
+margin:				auto;
+overflow: 			auto;
+margin-top:			360px;
+width:				600px;
+height:				250px;
+}
+
+#form_frame
+{
+margin:		auto;
+margin-top:	23px;
+width:		80%;
+text-align:	center;
+}
+
+#confirmation_code_title
+{
+margin:			auto;
+width:			auto;
+text-align:		center;
+font-size:		2.0em;
+font-weight:	bold;
+color:			var(--font);
+}
+
+#confirmation_code
+{
+margin:			auto;
+width:			120px;
+text-align:		center;
+font-size:		1.5em;
+font-weight:	bold;
+color:			var(--background);
+outline:		none;
+}
+
+#ensure_confirm
+{
+font-size:			1.5em;
+height:				40px;
+width:				50%;
+border-radius: 		5px;
+background-color:	var(--font);
+color:				var(--background);
+font-weight:		bold;
+outline:			none;
+}
+
+#confirmation_code:focus, #ensure_confirm:focus
+{
+border:	1px solid #e8e0c1;
+}
+
+#ensure_confirm:hover
+{
+cursor: pointer;
+}
+
+#transparency_body
+{
+display: none;
+background-color: #fffdf5;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}
+
+#modal_content1
+{
+background-color: 	var(--background);
+border:				1px solid #e8e0c1;
+margin:				auto;
+width:				500px;
+height:				200px;
+overflow: 			auto;
+margin-top:			350px;
+padding:			50px 50px 30px 50px;
+}
+
+#successful_detail
+{
+color:			var(--font);
+font-size:		2.3em;
+text-align:		center;
+}

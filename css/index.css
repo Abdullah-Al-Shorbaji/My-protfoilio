@@ -1,0 +1,467 @@
+:root {
+	--font: 			#fff8d4;
+	--background:		#090333;
+	--in-background:	#6858d1;
+	--border: 			#b2aed1;
+	--shadow: 			0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+body
+{
+background-color: white;
+}
+
+.head_upper
+{
+width: 				80%;
+min-width: 			69%;
+margin:				auto;
+padding:			0px;
+}
+
+		#head_upper_ul
+		{
+		list-style-type: 	none;
+		display: 			flex;
+		padding:			0px;
+		margin:				0px;
+		}
+
+			#head_upper_ul li
+			{
+			font-family:	"Trebuchet MS", Arial, Verdana;
+			color:			var(--background);
+			}
+			
+			#about_us
+			{
+			margin-left:	0px;
+			margin-right:	0px;
+			}
+			
+			#contact_us
+			{
+			margin:			auto;	
+			}
+			
+			#languages
+			{
+			margin:			auto;
+			margin-right:	0px;
+			margin-left:	0px;	
+			}
+			
+				#head_upper_ul li a
+				{
+				font-family:	"Trebuchet MS", Arial, Verdana;
+				color:			var(--background);
+				}
+
+.header_and_nav
+{
+border:				1px solid var(--border);
+width: 				80%;
+min-width: 			500px;
+margin:				auto;
+padding:			0px;
+background-color:	var(--background);
+border-radius:		10px;
+}
+
+	#header_ul
+	{
+	list-style-type: 	none;
+	display: 			flex;
+	padding:			0px;
+	margin:				0px;
+	}
+
+	#header_ul li
+	{
+		font-family:	"Trebuchet MS", Arial, Verdana;
+		color:			var(--font);
+		padding:		0px;
+	}
+	
+		#logo
+		{
+		margin-left:	0px;
+		margin-right:	0px;
+		}
+		
+		#nav_ul_outer_frame
+		{
+			margin:			auto;
+			width:			50%;
+		}
+
+			#logo img
+			{
+			width:			70px;
+			height:			50px;
+			border-radius:	10px;
+			}
+
+		.nav_ul
+		{
+		list-style-type: 	none;
+		display: 			flex;
+		width:				100%;
+		padding:			0px;
+		margin:				0px;
+		}
+
+			.nav_ul li
+			{
+			font-family:	"Trebuchet MS", Arial, Verdana;
+			color:			var(--background);
+			margin:			auto;
+			padding:		auto;	
+			}
+
+				.nav_ul li a
+				{
+				color:				var(--font);
+				font-family: 		"Trebuchet MS", Arial, Verdana;
+				}
+				
+				.nav_ul li a:hover
+				{
+				color:				#feffe8;
+				text-decoration:	none;
+				}
+				
+				.nav_ul li:hover 
+				{
+				border-bottom:	2px groove var(--border);
+				font-size: 100%;
+				transition: color .1s, font-size .1s;
+				}
+				
+		#unmembering_expression
+		{
+		color:			var(--font);
+		font-size:		100%;
+		font-family: 	"Trebuchet MS", Arial, Verdana;
+		margin:			auto;
+		margin-right:	1%;
+		margin-left:	0px;
+		}
+
+			#unmembering_expression a
+			{
+			color:			var(--font);
+			font-family: 	"Trebuchet MS", Arial, Verdana;
+			}
+
+				#unmembering_expression a:hover
+				{
+				color:				#feffe8;
+				}			
+
+		#membering_expression
+		{
+		color:			var(--font);
+		font-size:		100%;
+		font-family: 	"Trebuchet MS", Arial, Verdana;
+		margin:			auto;
+		margin-right:	1%;
+		margin-left:	0px;
+		/*
+		padding:		0px;
+		margin:			0px;
+		margin-top:		.65%;
+		margin-left:	16%;
+		*/
+		}
+		
+		#membering_expression a
+		{
+		font-family: 	"Trebuchet MS", Arial, Verdana;
+		color:			#594c07;
+		}
+
+				#membering_expression a:hover
+				{
+				color:				#feffe8;
+				}			
+
+		.login_group_ul
+		{
+		list-style-type: 	none;
+		display:			flex;
+		margin:				auto;
+		}
+
+		#personal_photo
+		{
+		width: 			50px;
+		height:			40px;
+		border-radius:	50%;
+		/*margin-left:	5px;*/
+		border:			none;
+		}
+
+			#me_li
+			{
+			color: 			var(--font);
+			font-size:		120%;
+			margin:			auto;
+			}
+			
+			#me_li:active
+			{
+			cursor:	pointer;
+			}
+
+			#me_li:hover
+			{
+			cursor:	pointer;
+			}
+
+			.personal_area_frame
+			{
+			position: 		relative;
+			display:		inline-block;
+			}
+
+			.fa-caret-down
+			{
+			color:			var(--font);
+			text-align:		center;
+			margin-top:		45%;
+			margin-right:	2px;
+			margin-left:	2px;
+			}
+
+			.fa-caret-down:active
+			{
+			cursor:	pointer;
+			}
+
+			.fa-caret-down:hover
+			{
+			cursor:	pointer;
+			}
+
+			.personal_area
+			{
+			display: 			none;
+			position: 			absolute;
+			background-color: 	var(--background);
+			width: 				275px;
+			box-shadow: 		0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 			1;
+			border:				2px solid var(--border);
+			border-radius:		10px;
+			padding: 			20px;
+			margin-left:		-250;
+			overflow:			scroll;
+			}
+
+			#tr1, #tr2, #tr3, #tr1 th, #tr2 td, #tr3 td
+			{
+			padding-bottom: 10px;
+			display: 		block;
+			}
+			
+			#tr2 a, #tr3 a
+			{
+			color: 		var(--font);
+			font-size:	80%;
+			}
+			
+			#tr1 #name_personal_area
+			{
+			color:			var(--font);
+			font-size:		80%;
+			font-weight: 	bold;
+			}
+			
+			#tr1 #email_personal_area
+			{
+			color:		#ccc595;
+			font-size:	70%;
+			}			
+			
+			.fa-power-off
+			{
+			text-align: 	center;
+			color:			var(--font);
+			font-size:		200%;
+			}
+			
+			.fa-power-off:active
+			{
+			cursor:	pointer;
+			}
+		
+			.fa-power-off:hover
+			{
+			cursor:	pointer;
+			}
+			
+/*--------------------------*/
+
+#website_introduction
+{
+width:				80%;
+min-width:			69%;
+height:				571px;
+}
+
+#website_introduction #website_introduction_image1
+{
+width: 	80%;
+height:	571px;
+border-radius:		10px;
+margin:				auto;
+}
+
+.sl-content
+{
+margin-left:	auto;
+margin-right:	auto;
+}
+
+.sl-animate-fading
+{
+animation:	fading 10s infinite;
+}
+
+@keyframes fading
+{
+	0%
+	{
+	opacity:0
+	}
+	
+	50%
+	{
+	opacity:1
+	}	
+	
+	60%
+	{
+	opacity:0.8
+	}
+
+	70%
+	{
+	opacity:0.6
+	}
+
+	80%
+	{
+	opacity:0.4
+	}
+
+	90%
+	{
+	opacity:0.2
+	}	
+	
+	100%
+	{
+	opacity:0
+	}
+}
+
+.search_frame
+{
+margin:				auto;
+margin-top:			25.54px;
+margin-bottom:		25.54px;
+width: 				30%;
+min-width:			350px;
+}
+
+.search_form
+{
+margin:			auto;
+/*width:			100%;*/
+
+}
+
+#search_form_list
+{
+padding:			0;
+display: 			flex;
+list-style-type: 	none;
+border:				1px solid var(--border);
+box-shadow: 		var(--shadow);
+border-radius:		10px;
+background-color:	var(--background);
+/*width:				100%;*/
+}
+
+#search_icon_frame_li
+{
+width:			5.5%;
+margin:			auto;
+margin-right:	1.5%;
+margin-top:		1%;
+margin-bottom:	1%;
+margin-left:	0px;
+}
+
+
+#search_icon_frame
+{
+margin:	auto;
+/*width:	100%;*/
+}
+
+#search_keyword_li
+{
+width:			100%;
+margin:			auto;
+margin-right:	0px;
+margin-left:	1%;
+}
+
+#search_keyword
+{
+border:				none;
+border-radius:		10px;
+width: 				100%;
+font-size: 			100%;
+font-family: 		"Trebuchet MS", Arial, Verdana;
+background-color:	var(--background);
+}
+
+#search_keyword::placeholder
+{
+color:	#fffdf2;
+}
+
+#search_keyword:focus
+{
+outline:	none;
+}
+
+.fa-search:hover
+{
+cursor: pointer;
+}
+
+.one_event_container
+{
+margin:				auto;
+margin-bottom:		50px;
+width:				80%;
+height:				300px;
+padding-top:		5px;
+border:				1px solid var(--border);
+box-shadow: 		var(--shadow);
+border-radius:		10px;
+background-color:	var(--background);
+}
+
+.one_event_container h3
+{
+margin:			auto;
+text-align:		center;
+font-family: 	"Trebuchet MS", Arial, Verdana;
+color:			#fffdf2;
+}

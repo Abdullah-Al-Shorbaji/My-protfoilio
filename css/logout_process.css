@@ -1,0 +1,27 @@
+/*Alkaa: yleinen asetukset*/
+:root {
+  --font: 		#fff8d4;
+  --background:	#090333;
+  --border: 	#b2aed1;
+  --shadow: 	0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+/*Loppuu: yleinen asetukset*/
+
+body
+{
+background-color: white;
+}
+ 
+ /*Pää ryhmän asetukset*/
+.container
+		{
+		width: 98%;
+		height: auto;
+		min-height: 80%;
+		margin: auto;
+		margin-top: 18%;
+		text-align: center;
+		font-size: 2vw;
+		color: var(--background);
+		font-weight: bold;
+		}
